@@ -1,6 +1,6 @@
 import ChuckImage from '../assets/chuck_norris.jpg';
 
-const ChuckCard = ({chuckGreeting, chuckImage}:any) => {
+const ChuckCard = ({chuckGreeting, chuckImage}: {chuckGreeting: string, chuckImage: string}) :JSX.Element => {
 
     return <>
         <h2>Greetings, {chuckGreeting}</h2>

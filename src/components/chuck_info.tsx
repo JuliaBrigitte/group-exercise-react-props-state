@@ -1,4 +1,4 @@
-const ChuckInfo = ({whalesSaved, roundHouseKicks}:any) =>
+const ChuckInfo = ({whalesSaved, roundHouseKicks}: {whalesSaved: number, roundHouseKicks: number}) =>
         <>
             <p>Number of Whales Saved: {whalesSaved}</p>
 
