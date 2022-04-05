@@ -41,7 +41,7 @@ function App() {
       <ChuckInfo whalesSaved={whalesSaved} roundHouseKicks={roundHouseKicks}/>
 
       <h2>Jokes: </h2>
-      <ChuckJokes />
+        <ChuckJokes jokes={jokes}/>
     </div>
   );
 }
