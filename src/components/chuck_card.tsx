@@ -1,12 +1,19 @@
-import ChuckImage from './assets/chuck_norris.jpg';
+import ChuckImage from '../assets/chuck_norris.jpg';
 
-const ChuckCard = () =>
+const ChuckCard = ({chuckGreeting, chuckImage}:any) => {
 
-        <>
-            <h2>{ }</h2>
+    return <>
+        <h2>Greetings, {chuckGreeting}</h2>
 
-            <img src={ 'Chuck image here!'} alt='A handsome man' /> 
-        </>
+        <div>
+            <img src={chuckImage} alt='An old man'/>
+        </div>
+
+        <div>
+            <img src={ChuckImage} alt='Second old man'/>
+        </div>
+    </>;
+}
 
 
 export default ChuckCard;

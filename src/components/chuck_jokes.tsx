@@ -5,7 +5,11 @@ function ChuckJokes() : JSX.Element {
     return (
         <>
             <p></p>
+
+        <h4>Filtered Jokes</h4>
+            <p></p>
         </>
+
     )
 }
 
